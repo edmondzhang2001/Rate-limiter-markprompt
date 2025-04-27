@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment Variables
+.env
+.env*
+!.env.example
+!.env.template
+
+# Build Output (Adjust if your outDir is different)
+dist/
+build/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / System Files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor Files
+.vscode/
+# Uncomment below lines to KEEP specific shared vscode settings
+# !.vscode/extensions.json
+# !.vscode/settings.json
+# !.vscode/launch.json
+
+# Test & Coverage Output
+coverage/
+.nyc_output/
+
+# Temporary / User Specific Dirs (from screenshot)
+scratchpad/
+# patches/ # Decide if you want to commit pnpm patches
+
+# Other common temporary files
+*.tmp

@@ -1,0 +1,10 @@
+{
+    "free": {
+        "requests": 10,
+        "windowSeconds": 60
+    },
+    "premium": {
+        "requests": 100,
+        "windowSeconds": 60
+    }
+}
